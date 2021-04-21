@@ -1,0 +1,167 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.top {
+    background-image: url(../img/D6F052FF-4EE5-48A6-9966-C5DFA0E4ECE6_1_105_c.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: flex-end;
+    padding: 30px;
+    font-size: 30px;
+}
+.nav {
+    display: flex;
+}
+.headerright li {
+    margin-right: 50px;
+    
+}
+.sun {
+    width: 100px;
+}
+.headerright {
+    display: flex;
+    justify-content:flex-end;
+}
+
+.nav > li > a {
+    text-decoration: none;
+    color: azure;
+    font-style: italic;
+    font-family: fantasy;
+}
+
+.main h1 {
+    font-size: 150px;
+    color: dimgrey;
+    font-weight: bold;
+    text-align: center;
+    padding-right: 350px;
+    padding-top: 350px;
+    font-family: fantasy;
+}
+.profile {
+    height: 500px;
+    margin-left: 150px;
+    border-radius:  100px;
+    margin-top: 100px;
+}
+.main_photo {
+    display: flex;
+    align-items: center;
+}
+.about {
+    font-family: fantasy;
+    background-image: linear-gradient(rgba(121, 107, 107, 0) 50%, rgb(220, 235, 238) 70%);
+    padding: 100px;
+}
+.name {
+    font-size: 70px;
+    font-family: 'Parisienne', cursive;
+    padding-top: 40px;
+    color:slategrey;
+}
+.about > h2{
+    font-size: 50px;
+    padding-bottom :background-image; linear-gradient(rgba(161, 26, 26, 0) 50%, rgb(183, 198, 201) 90%);
+
+}
+.discription {
+    font-size: 25px;
+    padding-top: 50px;
+    font-family: fantasy;
+}
+.subtitle {
+    font-size: 50px;
+    font-family: fantasy;
+    display: flex;
+    justify-content: space-around;
+
+
+}
+.cebu {
+    height: 400px;
+    padding-top: 10px;
+}
+.name2 > h2 {
+    padding-bottom: 10px;
+}
+.aus {
+    height: 400px;
+    width: 300px;
+    margin: 20px;
+}
+.india {
+    height: 400px;
+    width: 300px;
+    padding-top: 10px
+    ;
+}
+#sub > h2 {
+    font-family: fantasy;
+    font-size: 50px;
+    padding-bottom ：background-image; linear-gradient(rgba(161, 26, 26, 0) 50%, rgb(183, 198, 201) 90%);
+    text-align: center;
+
+}
+
+footer {
+    text-align: center;
+    padding: 25px;
+    background-color: rgb(193, 202, 211);
+    margin-top: 30px;
+
+}
+footer p {
+    color: snow;
+    font-family: fantasy;
+}
+
+.name2 > p {
+    font-size: 20px;
+    width: 250px;
+    padding: 20px;
+
+    border: 1px solid black;
+    
+}
+.name2 > h2 {
+    font-size: 50px;
+    padding-top: 20px;
+
+}
+#contact {
+    margin-bottom: 230px;
+}
+.contact-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 70px;
+}
+input, textarea {
+    width: 40%;
+    font-size: 23px;
+    margin-bottom: 18px;
+    padding: 3px 12px;
+}
+input, textarea, button {
+    border-radius: 5px;
+}
+textarea {
+    width: 40%;
+}
+button {
+    width: 140px;
+    font-size: 23px;
+    padding: 7px;
+    height: 60px;
+    background-color: #223644;
+    margin-top: 26px;
+    cursor: pointer;
+    color: white;
