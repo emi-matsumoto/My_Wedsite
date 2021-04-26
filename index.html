@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ja">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,9 +8,9 @@
     <link rel="stylesheet" href="./assets/css/reset.css">
     <link rel="stylesheet" href="./assets/css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Parisienne&display=swap" rel="stylesheet">
-    
     <title>My_wedsite</title>
 </head>
+
 <body>
     <div class="top">
         <header>
@@ -18,36 +19,50 @@
             <div class="headerright">
                 <ul class="nav">
                     <li><a href="#about">About</a></li>
+                    <li>|</li>
                     <li><a href="#other">other</a></li>
+                    <li>|</li>
+                    <li><a href="#contact">contact</a></li>
                 </ul>
             </div>
-            <div class="main">
-                <h1>I  am  Emily</h1>
-            </div>
+            <!-- <div class="main"> -->
+            <!-- <h1>I am Emily</h1> -->
         </header>
+        <h1 id="top-name">I am Emily</h1>
     </div>
-    <div class="main_photo">
-        <img class="profile" src="/assets/img/92D61AEB-800F-4DE2-A745-D54C03C826EA.jpg"  alt="photo">
-        
-    <div class="about"><h2 id="about">About Me</h2>
 
-        <h3 class="name">Emi Matsumoto</h3>
-        
-        
-        <p class="discription">専門学校卒業してからセブ留学やオーストラリアへワーキングホリデー<br>
-            インドでのヨガ留学を経験し日本と違う文化や人々と触れ合うことで<br>様々な発見や刺激をもらってきました。<br>そんな国々を紹介したいと思います。</br></p>
-    </div>       
+    <div class="container">
+        <div class="main_photo">
+            <img class="profile" src="/assets/img/92D61AEB-800F-4DE2-A745-D54C03C826EA.jpg" alt="photo">
+
+            <div class="about">
+                <h2 id="about">About Me</h2>
+
+                <h3 class="name">Emi Matsumoto</h3>
+
+
+                <p class="discription">
+                    専門学校を卒業してから海外に興味をもち初め<br>
+                    シンガポールでの短期バイトやセブ島留学、<br>オーストラリアへワーキングホリデー<br>
+                    そしてインドでのヨガ留学を経験し日本と違う文化<br>人々と触れ合うことで様々な発見や刺激をもらって<br>きました。
+                    そんな国々の紹介とインドで取得した資格RYT200<br>（登録ヨガ講師）の紹介もしたいと思います。</br>
+                </p>
+            </div>
+        </div>
     </div>
-</body> 
-    <section id="sub">
-        <h2 id="other">Other</h2>
+
+    <div class="container" id="sub">
+        <div class="box">
+            <h2 id="other">Other</h2>
+        </div>
+
         <div class="subtitle">
             <div class="name2">
                 <img src="./assets/img/64A54C63-2210-4967-85BF-77EFAA6571EA_1_105_c.jpeg" alt="cebu" class="cebu">
                 <h2>Philippines</h2>
                 <p>セブ島とレイテ島の間に浮かぶ「カランガマン島」別名ホワイトサンドバーといって天国の島とも言われています。<br>とにかく透明度が素晴らしくて人気の観光地です。</p>
             </div>
-            <div class="name2">
+            <div class="name2 name3">
                 <h2>Australia</h2>
                 <p>英語名でエアーズロック　先住民アボリジニの言葉で『ウルル』といって世界最大級の一枚岩。迫力が凄くて圧倒されました。</p>
                 <img src="./assets/img/858054AD-2CCC-4A20-AA6C-E6B663BDC5C8_1_105_c.jpeg" alt="aus" class="aus">
@@ -55,30 +70,60 @@
             <div class="name2">
                 <img src="./assets/img/2A11E2D5-BAC0-4952-A64E-18D4E45DC074_1_105_c.jpeg" alt="india" class="india">
                 <h2>India</h2>
-                <p>プリーといってインドの東側オリッサ州の都市。ベンガル湾沿いに面していて漁業が発達しています。ビーチリゾートでもあり気軽にラクダに乗ることもできます。
+                <p>ここはプリーといってインドの東側オリッサ州の都市。ベンガル湾沿いに面していて漁業が発達しています。ビーチリゾートでもあり気軽にラクダに乗ることもできます。
+                    そしてインドはYOGAの発祥地でもあります。
                 </p>
-        </div> 
-    </section>
-    <section id="contact">
-        <h1>Contact</h1>
-        <div class="contact-wrap">
-            <input type="text" name="text" placeholder="Name">
-            <input type="email" name="email" placeholder="Email">
-            <textarea name="" id="" cols="30" rows="10"></textarea>
-            <button type="submit">Submit</button>
         </div>
-    </section>
+    </div>
+        <div class="container2">
+            <div class="yoga">
+                <h1>What is YOGA...</h1>
+        </div>    
+            <div class="discription">
+                <h2>ヨガとは幸せに生きる技術</h2>
+                <p>ヨガは歴史が深く始まりは5000年以上前、<br>北インドで起こったインダス文明から発展されたと言われています。<br>ヨガには様々な種類があり単なるエクササイズではありません。<br>
+                    アーサナ、プラナヤマ、メディテーションを通して<br>心と身体、心と呼吸、心と魂を繋げて自分の心に正直に<br>行動しありのままに生きることで本来の自分の姿に気付くことです。<br>
+                <br>    
+                <h2>ヨガの定義</h2>
+                    <ul>
+                        <li>・ヨガとは体と心、呼吸の調和</li>
+                        <li>・ヨガとは失敗にも成功にも左右されない心の平静</li>
+                        <li>・ヨガとは不幸を取り除き痛みを打ち砕く</li>
+                        <li>・ヨガとは生命の最高の神秘</li>
+                        <li>・ヨガとは終わりのない幸福を与えるもの</li>
+                        <li>・ヨガとはあらゆる局面において心を落ち着かせる術</li>
+                    
+                        
+                    </ul>    
+
+ 
+                </p>
+            </div>    
+        </div>
+
+        <div class="container">
+            <div class="box1">
+                <h1 id="contact">Contact</h1>
+            </div>
+            <div class="contact-wrap">
+                <input type="text" name="text" placeholder="Name">
+                <input type="email" name="email" placeholder="Email">
+                <textarea name="" id="" cols="30" rows="10"></textarea>
+                <!-- <button type="submit">Submit</button> -->
+                <a class="button" href="#">Send</a>
+            </div>
+        </div>
+        <!-- <i class="fab fa-facebook-square"></i> -->
+
+
+</body>
+<footer>
+    <P> &copy; Emily.com</P>
+</footer>
 
 
 
 
-    <footer>
-        <P> &copy; Emily.com</P>
-    </footer>
-        
-
-    
-    
 
 
 </html>
